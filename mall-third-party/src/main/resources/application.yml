@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI4GJCB6kUkHvXgrYQpVY1
+      secret-key: g9v6mS8bZSzhnOws9SIMMO7xiS47xw
+      oss:
+        endpoint: oss-cn-shanghai.aliyuncs.com
+        bucket: mall-lilijie-hello
+  application:
+    name: mall-third-party
+server:
+  port: 30000
